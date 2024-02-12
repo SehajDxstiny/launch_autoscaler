@@ -6,7 +6,7 @@ apt-get update -y && \
     libgl1-mesa-glx \
     libglm-dev
 
-pip install vastai flask fastapi pyyaml \
+pip install vastai uvicorn flask fastapi pyyaml \
     && git clone https://github.com/dreamgaussian/dreamgaussian \
     && cd dreamgaussian \
     && pip install -r ./requirements.txt \
